@@ -16,6 +16,16 @@
   margin: 0;
 }
 body {
+  position: relative;
   margin: 0;
   background: #080808;
+}
+body::before {
+  content: "";
+  position: fixed; /* Binds the element directly to the device viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Smoothly fills mobile browser address bar changes */
+  z-index: -1; /* Pushes the background element behind your content */
 }
