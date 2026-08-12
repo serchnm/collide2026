@@ -19,16 +19,3 @@ body {
   margin: 0;
   background: #080808;
 }
-
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  height: 100dvh;
-  overflow-x: hidden;
-}
-
-#root, .App {
-  min-height: 100dvh;
-}
