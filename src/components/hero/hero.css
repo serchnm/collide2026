@@ -41,18 +41,13 @@
 .hero-content span {
   color: #ffd34e;
   letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 22px;
 }
 .hero-content p {
   margin: 0 0 20px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 800;
   color: #ffffff;
-}
-
-.hero-content h1 {
-  margin: 0;
-
-  font-size: clamp(48px, 7vw, 88px);
-  line-height: 0.95;
-  font-weight: 900;
+  line-height: 30px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import drSquatch from "../../image/conference.jpg";
-import "./hero.scss";
+import "./hero.css";
 
 
 const hero = ({ sharedData }) => {
