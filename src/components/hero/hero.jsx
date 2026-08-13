@@ -13,7 +13,7 @@ const hero = ({ sharedData }) => {
         <span>{sharedData.staff}</span>
         <div>
           {/* <img src={drSquatch} alt={`project`} /> */}
-          <p>Bienvenidos a <br /> Collidess</p>
+          <p>Bienvenidos a <br /> Collide</p>
         </div>
       </div>
       
