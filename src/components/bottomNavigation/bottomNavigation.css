@@ -37,9 +37,9 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
-.navigation-item.active {
+/* .navigation-item.active {
   background: rgba(255, 255, 255, 0.15);
-}
+} */
 
 .navigation-item svg {
   flex-shrink: 0;

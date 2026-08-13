@@ -6,19 +6,18 @@ import {
   hero_data,
   eventCards
 } from "../../mocks/shared-data";
+import './home.css';
 
 const home = () => {
   console.log('test ndjsdnsj');
   
 
   return (
-    
-    <div>
+    <div className='home-landing'>
       <Hero sharedData={hero_data} />
       <FeatureGrid cards={eventCards} />
       <BottomNavigation />
     </div>
-      
   );
 };
 

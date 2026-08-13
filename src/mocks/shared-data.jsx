@@ -83,3 +83,49 @@ export const navigation_data = [
     icon: "action",
   },
 ];
+
+export const thursday_data = [
+  {
+    concept: "Entrega Produccion",
+    time: "2:00pm"
+  },
+  {
+    concept: "Ajustes Multimedia y Video",
+    time: "2:00pm - 4:00pm"
+  },
+  {
+    concept: "Sound Check - Collide Band",
+    time: "3:00pm - 6:00pm"
+  },
+  {
+    concept: "Ensayo Opening",
+    time: "6:00pm - 8:00pm"
+  },
+  {
+    concept: "Platica para voluntarios",
+    time: "8:00pm - 9:00pm"
+  }
+];
+
+export const friday_data = [
+  {
+    concept: "Prueba Multimedia",
+    time: "10:00am - 12:00pm"
+  },
+  {
+    concept: "Sound Check - Kenny Rivers",
+    time: "12:00pm - 2:00pm"
+  },
+  {
+    concept: "Sound Check - Musicos Prisma",
+    time: "2:00pm - 3:00pm"
+  },
+  {
+    concept: "Comida",
+    time: "2:00pm"
+  },
+  {
+    concept: "Ensayo Opening",
+    time: "3:00pm - 3:40pm"
+  }
+];
