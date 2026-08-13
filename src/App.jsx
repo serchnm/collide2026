@@ -1,23 +1,29 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from './assets/vite.svg';
-import heroImg from './assets/hero.png';
-import Hero from './components/hero/hero';
-import FeatureGrid from "./components/featureGrid/featureGrid";
-import './App.css';
-import {
-  hero_data,
-  eventCards
-} from "./mocks/shared-data";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/home/home';
+import Breakouts from './pages/breakouts/breakouts';
+import Faq from './pages/faq/faq';
+import Maps from './pages/maps/maps';
+import Schedule from './pages/schedule/schedule';
+import Speakers from './pages/speakers/speakers';
 
 function App() {
 
   return (
-   <div className="App">
-      <Hero sharedData={hero_data} />
-      <FeatureGrid cards={eventCards} />
-    </div>
+   <BrowserRouter>
+      <Routes>
+        <Route path="/collide2026" element={<Home />} />
+
+        <Route path="/breakouts" element={<Breakouts />} />
+
+        <Route path="/faq" element={<Faq />} />
+
+        <Route path="/maps" element={<Maps />} />
+
+        <Route path="/schedule" element={<Schedule />} />
+
+        <Route path="/speakers" element={<Speakers />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

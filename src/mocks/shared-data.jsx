@@ -55,3 +55,31 @@ export const eventCards = [
     iconVariant: "light"
   },
 ];
+
+export const navigation_data = [
+  {
+    id: "home",
+    label: "Home",
+    icon: "home",
+  },
+  {
+    id: "schedule",
+    label: "Schedule",
+    icon: "calendar",
+  },
+  {
+    id: "breakouts",
+    label: "Breakouts",
+    icon: "breakout",
+  },
+  {
+    id: "maps",
+    label: "Maps",
+    icon: "map",
+  },
+  {
+    id: "action",
+    label: "Take Action",
+    icon: "action",
+  },
+];
