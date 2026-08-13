@@ -11,7 +11,7 @@ function App() {
   return (
    <BrowserRouter>
       <Routes>
-        <Route path="/collide2026" element={<Home />} />
+        <Route path="/collide2026/" element={<Home />} />
 
         <Route path="/breakouts" element={<Breakouts />} />
 

@@ -13,7 +13,7 @@ import "./BottomNavigation.css";
 const navigation = [
   {
     label: "Home",
-    path: "/collide2026",
+    path: "/collide2026/",
     icon: Home,
   },
   {
@@ -26,16 +26,6 @@ const navigation = [
     path: "/breakouts",
     icon: PanelsTopLeft,
   },
-  // {
-  //   label: "Maps",
-  //   path: "/maps",
-  //   icon: MapPin,
-  // },
-  // {
-  //   label: "Speakers",
-  //   path: "/speakers",
-  //   icon: ArrowRight,
-  // },
 ];
 
 function BottomNavigation() {
