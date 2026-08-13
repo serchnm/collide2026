@@ -18,12 +18,12 @@ const navigation = [
   },
   {
     label: "Schedule",
-    path: "/schedule",
+    path: "/collide2026/schedule",
     icon: CalendarDays,
   },
   {
     label: "Breakouts",
-    path: "/breakouts",
+    path: "/collide2026/breakouts",
     icon: PanelsTopLeft,
   },
 ];
