@@ -1,13 +1,15 @@
 .speakerCards {
   margin-top: 20px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  justify-content: center; */
+  gap: 5px;
 }
-.speakerCards > * {
+/* .speakerCards > * {
   flex: 0 0 calc(50% - 8px);
-}
+} */
 .speakerCards img {
   border-radius: 10%;
   object-fit: contain;
