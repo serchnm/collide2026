@@ -1,0 +1,13 @@
+.previous-nav-item {
+  max-width: 24px;
+  background: #343434;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  padding: 5px;
+}
+.previous-nav-item svg {
+  color: #ffffff;
+  display: block;
+}

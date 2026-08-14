@@ -10,6 +10,7 @@ import {
   Building2,
   Users,
   HelpCircle,
+  ChevronLeft,
 } from "lucide-react";
 
 export const eventCards = [
@@ -19,7 +20,8 @@ export const eventCards = [
     icon: CalendarDays,
     variant: "light",
     size: "normal",
-    iconVariant: "light"
+    iconVariant: "light",
+    path: ""
   },
   {
     id: "maps",
@@ -27,24 +29,27 @@ export const eventCards = [
     icon: MapPin,
     variant: "yellow",
     size: "normal",
-    iconVariant: "light"
+    iconVariant: "light",
+    path: ""
   },
   
   {
-    id: "partners",
+    id: "speakers",
     title: "Speakers",
     icon: Building2,
     variant: "blue",
     size: "normal",
-    iconVariant: "white"
+    iconVariant: "white",
+    path: ""
   },
   {
-    id: "help",
+    id: "faq",
     title: "FAQ",
     icon: HelpCircle,
     variant: "red",
     size: "normal",
-    iconVariant: "white"
+    iconVariant: "white",
+    path: ""
   },
   {
     id: "breakouts",
@@ -52,7 +57,8 @@ export const eventCards = [
     icon: PanelsTopLeft,
     variant: "light",
     size: "wide",
-    iconVariant: "light"
+    iconVariant: "light",
+    path: ""
   },
 ];
 
@@ -82,6 +88,14 @@ export const navigation_data = [
     label: "Take Action",
     icon: "action",
   },
+];
+
+export const home_navigation_data = [
+  {
+    id: "home",
+    path: "/collide2026/",
+    icon: ChevronLeft,
+  }
 ];
 
 export const thursday_data = [
