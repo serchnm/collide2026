@@ -1,15 +1,19 @@
 import React from 'react';
 import BottomNavigation from '../../components/bottomNavigation/bottomNavigation';
 import PreviousNavigation from '../../components/previousNavigation/previousNavigation';
+import SpeakerCards from '../../components/speakersCards/speakerCards';
 import "./speakers.css";
 
 const speakers = () => {
 
   return (
-    <div>
+    <div className='speakers-container'>
       <PreviousNavigation />
-      <p>speakers</p>
-      <button>red</button>
+      <div className='speakers-label'>
+        <span>//LineUp</span>
+        <h1>Speakers</h1>
+      </div>
+      <SpeakerCards />
       <BottomNavigation />
     </div>
   );

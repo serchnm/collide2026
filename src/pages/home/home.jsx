@@ -9,9 +9,6 @@ import {
 import './home.css';
 
 const home = () => {
-  console.log('test ndjsdnsj');
-  
-
   return (
     <div className='home-landing'>
       <Hero sharedData={hero_data} />

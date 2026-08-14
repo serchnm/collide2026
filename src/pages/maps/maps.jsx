@@ -1,14 +1,19 @@
 import React from 'react';
 import BottomNavigation from '../../components/bottomNavigation/bottomNavigation';
 import PreviousNavigation from '../../components/previousNavigation/previousNavigation';
+import mapImg from '../../image/mapzone.png';
+
 import './maps.css';
 
 const maps = () => {
 
   return (
-    <div>
+    <div className='maps-container'>
       <PreviousNavigation />
-      <p>maps</p>
+      <div className='img-container'>
+        <span>// The Arena</span>
+        <img src={mapImg} height={280} />
+      </div>
       <BottomNavigation />
     </div>
   );

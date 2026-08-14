@@ -1,0 +1,12 @@
+.speakerCards {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.speakerCards > * {
+  flex: 0 0 calc(50% - 8px);
+}
+.speakerCards img {
+  border-radius: 10%;
+}

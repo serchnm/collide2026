@@ -1,3 +1,15 @@
-p {
-  color: #ffffff;
+.maps-container {
+  padding: 40px 20px 40px 20px;
+  margin-bottom: 70px;
+}
+.maps-container .img-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: center;
+}
+.maps-container .img-container span {
+  color: rgb(131, 131, 131);
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }

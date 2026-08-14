@@ -8,6 +8,8 @@ import {
   ArrowRight,
 } from "lucide-react";
 
+import { navigation_data } from '../../mocks/shared-data';
+
 import "./BottomNavigation.css";
 
 const navigation = [
@@ -31,7 +33,7 @@ const navigation = [
 function BottomNavigation() {
   return (
     <nav className="bottom-navigation">
-      {navigation.map(({ label, path, icon: Icon }) => (
+      {navigation_data.map(({ label, path, icon: Icon }) => (
         <NavLink
           key={path}
           to={path}

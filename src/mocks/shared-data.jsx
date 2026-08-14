@@ -1,4 +1,5 @@
 import {
+  Home,
   CalendarDays,
   MapPin,
   PanelsTopLeft,
@@ -8,6 +9,14 @@ import {
   HelpCircle,
   ChevronLeft,
 } from "lucide-react";
+
+import Andrea from '../image/Andrea.png';
+import Daniel from '../image/DANIEL.png';
+import Itiel from '../image/ITIEL.png';
+import Jose from '../image/JOSE.png';
+import Miguel from '../image/MIGUEL.png';
+import Sarab from '../image/SARAB.png';
+import Sebas from '../image/SEBAS.png'
 
 export const hero_data = {
   staff: "Hey Staff!",
@@ -22,7 +31,7 @@ export const eventCards = [
     variant: "light",
     size: "normal",
     iconVariant: "light",
-    path: ""
+    path: "/collide2026/schedule"
   },
   {
     id: "maps",
@@ -31,7 +40,7 @@ export const eventCards = [
     variant: "yellow",
     size: "normal",
     iconVariant: "light",
-    path: ""
+    path: "/collide2026/maps"
   },
   
   {
@@ -41,7 +50,7 @@ export const eventCards = [
     variant: "blue",
     size: "normal",
     iconVariant: "white",
-    path: ""
+    path: "/collide2026/speakers"
   },
   {
     id: "faq",
@@ -50,44 +59,25 @@ export const eventCards = [
     variant: "red",
     size: "normal",
     iconVariant: "white",
-    path: ""
-  },
-  {
-    id: "breakouts",
-    title: "My Breakout\nSessions",
-    icon: PanelsTopLeft,
-    variant: "light",
-    size: "wide",
-    iconVariant: "light",
-    path: ""
+    path: "/collide2026/faq"
   },
 ];
 
 export const navigation_data = [
   {
-    id: "home",
     label: "Home",
-    icon: "home",
+    path: "/collide2026/",
+    icon: Home,
   },
   {
-    id: "schedule",
     label: "Schedule",
-    icon: "calendar",
+    path: "/collide2026/schedule",
+    icon: CalendarDays,
   },
   {
-    id: "breakouts",
-    label: "Breakouts",
-    icon: "breakout",
-  },
-  {
-    id: "maps",
     label: "Maps",
-    icon: "map",
-  },
-  {
-    id: "action",
-    label: "Take Action",
-    icon: "action",
+    path: "/collide2026/maps",
+    icon: MapPin,
   },
 ];
 
@@ -201,3 +191,34 @@ export const schedule_data = {
     },
   ],
 };
+
+export const speakers = [
+  {
+    key: 'Andrea',
+    src: Andrea
+  },
+  {
+    key: 'Daniel',
+    src: Daniel
+  },
+  {
+    key: 'Itiel',
+    src: Itiel
+  },
+  {
+    key: 'Jose',
+    src: Jose
+  },
+  {
+    key: 'Miguel',
+    src: Miguel
+  },
+  {
+    key: 'Sarab',
+    src: Sarab
+  },
+  {
+    key: 'Sebas',
+    src: Sebas
+  },
+]
