@@ -1,6 +1,6 @@
 import ScheduleEventCard from "../../components/scheduleEventCard/scheduleEventCard";
 
-import "./ScheduleEvents.css";
+import "./scheduleEvents.css";
 
 function ScheduleEvents({ events }) {
   return (

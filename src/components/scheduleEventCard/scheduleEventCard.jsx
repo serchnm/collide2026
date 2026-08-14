@@ -1,6 +1,6 @@
 import { Star } from "lucide-react";
 
-import "./ScheduleEventCard.css";
+import "./scheduleEventCard.css";
 
 function ScheduleEventCard({
   time,

@@ -1,6 +1,18 @@
-p {
-  color: #ffffff;
-}
 .schedule-container {
   padding: 40px 20px 40px 20px;
+  margin-bottom: 70px;
+}
+.schedule-label {
+  
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.schedule-label span {
+  color: rgb(131, 131, 131);
+}
+.schedule-label h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
