@@ -1,18 +1,12 @@
 .feature-card {
   position: relative;
-
   width: 100%;
   min-height: 260px;
-
   border: none;
   border-radius: 22px;
-
   padding: 34px;
-
   text-align: left;
-
   cursor: pointer;
-
   transition:
     transform 0.2s ease,
     filter 0.2s ease;
@@ -27,17 +21,12 @@
   transform: scale(0.98);
 }
 
-/* Icon */
-
 .feature-card-icon {
   position: absolute;
-
   top: 34px;
   right: 34px;
 }
-
 /* Title */
-
 .feature-card-title {
   position: absolute;
 

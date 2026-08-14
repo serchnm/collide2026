@@ -1,0 +1,8 @@
+.schedule-events {
+  display: flex;
+  flex-direction: column;
+
+  gap: 14px;
+
+  padding: 84px 24px 120px;
+}

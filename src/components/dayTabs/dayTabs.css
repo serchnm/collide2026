@@ -1,0 +1,56 @@
+.day-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+
+  padding: 0 24px;
+}
+
+.day-tab {
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #1b191d;
+  color: #aaa7a1;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.15s ease;
+}
+
+.day-tab:hover {
+  background: #27252a;
+}
+
+.day-tab:active {
+  transform: scale(0.97);
+}
+
+.day-tab.active {
+  background: #ff0716;
+  color: white;
+}
+
+.day-tab-name {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.day-tab-date {
+  margin-top: 2px;
+
+  font-size: 38px;
+  line-height: 0.9;
+  font-weight: 900;
+}

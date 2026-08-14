@@ -1,7 +1,3 @@
-export const hero_data = {
-  staff: "Hey Staff!",
-  welcome: "Bienvenido a\nCollide"
-}
 import {
   CalendarDays,
   MapPin,
@@ -12,6 +8,11 @@ import {
   HelpCircle,
   ChevronLeft,
 } from "lucide-react";
+
+export const hero_data = {
+  staff: "Hey Staff!",
+  welcome: "Bienvenido a\nCollide"
+}
 
 export const eventCards = [
   {
@@ -98,48 +99,105 @@ export const home_navigation_data = [
   }
 ];
 
-export const thursday_data = [
-  {
-    concept: "Entrega Produccion",
-    time: "2:00pm"
-  },
-  {
-    concept: "Ajustes Multimedia y Video",
-    time: "2:00pm - 4:00pm"
-  },
-  {
-    concept: "Sound Check - Collide Band",
-    time: "3:00pm - 6:00pm"
-  },
-  {
-    concept: "Ensayo Opening",
-    time: "6:00pm - 8:00pm"
-  },
-  {
-    concept: "Platica para voluntarios",
-    time: "8:00pm - 9:00pm"
-  }
-];
 
-export const friday_data = [
-  {
-    concept: "Prueba Multimedia",
-    time: "10:00am - 12:00pm"
-  },
-  {
-    concept: "Sound Check - Kenny Rivers",
-    time: "12:00pm - 2:00pm"
-  },
-  {
-    concept: "Sound Check - Musicos Prisma",
-    time: "2:00pm - 3:00pm"
-  },
-  {
-    concept: "Comida",
-    time: "2:00pm"
-  },
-  {
-    concept: "Ensayo Opening",
-    time: "3:00pm - 3:40pm"
-  }
-];
+
+
+export const schedule_data = {
+  days: [
+    {
+      id: "thu",
+      day: "THU",
+      date: "23",
+      events: [
+        {
+          id: "production-deliver",
+          time: "2:00 PM",
+          title: "Entrega Produccion",
+          featured: false,
+        },
+        {
+          id: "media-adjustments",
+          time: "2:00 PM - 4:00 PM",
+          title: "Ajustes Multimedia",
+          featured: false,
+        },
+        {
+          id: "cb-sound-check",
+          time: "3:00 PM - 6:00 PM",
+          title: "Sound Check Collide Band",
+          featured: true,
+        },
+        {
+          id: "opening-check",
+          time: "6:00 PM - 8:00 PM",
+          title: "Ensayo Opening",
+          featured: false,
+        },
+        {
+          id: "Platica para Voluntarios",
+          time: "8:00 PM - 9:00 PM",
+          title: "Ensayo Opening",
+          featured: false,
+        },
+      ],
+    },
+
+    {
+      id: "fri",
+      day: "FRI",
+      date: "24",
+      events: [
+        {
+          id: "morning-sound-check",
+          time: "10:00 AM - 12:00 PM",
+          title: "Prueba Multimedia",
+          featured: false,
+        },
+        {
+          id: "sound-check-kr",
+          time: "12:00 PM - 2:00 PM",
+          title: "Sound Check Kenny Rivers",
+          featured: true,
+        },
+        {
+          id: "sound-check-ps",
+          time: "2:00 PM - 3:00 PM",
+          title: "Sound Check Prisma Band",
+          featured: true,
+        },
+        {
+          id: "break-friday",
+          time: "2:00 PM",
+          title: "Comida",
+          featured: false,
+        },
+        {
+          id: "final-opening-check",
+          time: "3:00 PM - 3:40 PM",
+          title: "Ensayo Opening",
+          featured: false,
+        },
+      ],
+    },
+
+    {
+      id: "sat",
+      day: "SAT",
+      date: "25",
+      events: [
+        {
+          id: "morning",
+          time: "10:00 AM",
+          title: "Morning Session",
+          featured: false,
+        },
+        {
+          id: "closing",
+          time: "7:00 PM",
+          title: "Closing Night",
+          featured: true,
+        },
+      ],
+    },
+  ],
+};

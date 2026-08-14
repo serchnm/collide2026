@@ -15,7 +15,7 @@ const previousNavigation = () => {
           key={path}
           to={path}
         >
-          <Icon size={22} />
+          <Icon size={24} />
         </NavLink>
       ))}
     </div>
