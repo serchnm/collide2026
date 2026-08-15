@@ -52,15 +52,15 @@ export const eventCards = [
     iconVariant: "white",
     path: "/collide2026/speakers"
   },
-  {
-    id: "faq",
-    title: "FAQ",
-    icon: HelpCircle,
-    variant: "red",
-    size: "normal",
-    iconVariant: "white",
-    path: "/collide2026/faq"
-  },
+  // {
+  //   id: "faq",
+  //   title: "FAQ",
+  //   icon: HelpCircle,
+  //   variant: "red",
+  //   size: "normal",
+  //   iconVariant: "white",
+  //   path: "/collide2026/faq"
+  // },
 ];
 
 export const navigation_data = [
@@ -126,7 +126,7 @@ export const schedule_data = {
         {
           id: "Platica para Voluntarios",
           time: "8:00 PM - 9:00 PM",
-          title: "Ensayo Opening",
+          title: "Plática Voluntarios",
           featured: false,
         },
       ],

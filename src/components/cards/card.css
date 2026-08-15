@@ -1,7 +1,7 @@
 .feature-card {
   position: relative;
   width: 100%;
-  min-height: 260px;
+  min-height: 130px;
   border: none;
   border-radius: 22px;
   padding: 34px;
@@ -85,28 +85,26 @@
   background: #1d3fd0;
   color: white;
 }
-
 /* ======================
    SIZE
 ====================== */
-
 .feature-card.wide {
   grid-column: span 2;
 }
-
 /* ======================
    MOBILE
 ====================== */
 
 @media (max-width: 700px) {
   .feature-card {
-    min-height: 180px;
+    min-height: 130px;
     padding: 20px;
     border-radius: 16px;
   }
 
   .feature-card.wide {
     min-height: 200px;
+    grid-column: span 2;
   }
 
   .feature-card-icon {
