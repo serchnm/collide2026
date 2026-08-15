@@ -12,6 +12,7 @@ const maps = () => {
       <PreviousNavigation />
       <div className='img-container'>
         <span>// The Arena</span>
+        <h1>Maps</h1>
         <img src={mapImg} height={280} />
       </div>
       <BottomNavigation />

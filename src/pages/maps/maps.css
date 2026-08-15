@@ -5,11 +5,17 @@
 .maps-container .img-container {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 15px;
   justify-content: center;
 }
 .maps-container .img-container span {
   color: rgb(131, 131, 131);
   text-transform: uppercase;
+}
+.maps-container h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 20px;
 }
