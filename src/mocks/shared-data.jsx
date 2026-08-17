@@ -29,7 +29,7 @@ export const eventCards = [
     title: "Event\nSchedule",
     icon: CalendarDays,
     variant: "light",
-    size: "normal",
+    size: "wide",
     iconVariant: "light",
     path: "/collide2026/schedule"
   },

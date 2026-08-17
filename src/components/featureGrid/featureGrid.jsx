@@ -9,6 +9,7 @@ function grid({ cards }) {
         <NavLink
           key={card.path}
           to={card.path}
+          className={`feature-card-link ${card.size || ""}`}
         >
           <Card
             key={card.id}
