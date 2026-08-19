@@ -13,6 +13,16 @@
   color: white;
 }
 
+.schedule-event-card.speaker {
+  background: #00B7CD;
+  color: white;
+}
+
+.schedule-event-card.concert {
+  background: #F8843F;
+  color: white;
+}
+
 .schedule-event-content {
   display: flex;
   flex-direction: column;
@@ -27,6 +37,16 @@
 }
 
 .schedule-event-card.featured
+  .schedule-event-time {
+  color: white;
+}
+
+.schedule-event-card.speaker
+  .schedule-event-time {
+  color: white;
+}
+
+.schedule-event-card.concert
   .schedule-event-time {
   color: white;
 }

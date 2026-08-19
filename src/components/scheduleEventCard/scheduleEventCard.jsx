@@ -10,7 +10,9 @@ function ScheduleEventCard({
   return (
     <article
       className={`schedule-event-card ${
-        featured ? "featured" : ""
+        featured == 'true' ? "featured" :
+        featured == 'speaker' ? 'speaker' :
+        featured == 'concert' ? 'concert' : ''
       }`}
     >
       <div className="schedule-event-content">
