@@ -72,7 +72,7 @@
 }
 
 .feature-card.yellow {
-  background: #ffd34e;
+  background: #EBE3A7;
   color: #080808;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .feature-card.blue {
-  background: #1d3fd0;
+  background: #2C5745;
   color: white;
 }
 @media (max-width: 700px) {
